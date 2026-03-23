@@ -4,7 +4,7 @@
   "description": "Find your dream home with Prime Real Estate. connect with top agents, and discover the perfect property for you.",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "303f7e",
+  "theme_color": "#303f7e",
   "background_color": "#f5f5f4",
   "icons": [
     {
