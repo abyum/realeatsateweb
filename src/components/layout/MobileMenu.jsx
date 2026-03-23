@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ImageWithPlaceholder from "../image-with-placeholder/ImageWithPlaceholder";
-import Logo from "@/assets/logo.png";
 import {
   MdClose,
   MdKeyboardArrowRight,
@@ -146,7 +145,7 @@ const MobileMenu = ({
             <div className="flex items-center justify-between border-b p-3 md:p-4">
               <div className="h-16 w-40 flex items-center">
                 <ImageWithPlaceholder
-                  src={webSettings?.web_logo || Logo}
+                  src={webSettings?.web_logo || "/assets/logo.png"}
                   alt="logo"
                   priority={true}
                   className="h-fit w-fit object-contain"
